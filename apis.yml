@@ -1,8 +1,25 @@
 aid: ethereal-exploration-guild
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ethereal-exploration-guild.png
 name: Ethereal Exploration Guild
-description: 'Ethereal Exploration Guild is a company surfaced as a portfolio company of prosus-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Ethereal Exploration Guild (EtherealX) is an Indian spacetech company founded in 2022 in
+  Bengaluru by Manu J. Nair, Prashant Sharma, and Shubhayu Sardar, building fully reusable medium-lift
+  launch vehicles. Its lead product, the Razor Crest Mk-1 (RCM1), targets roughly 25 tons to low Earth
+  orbit with high launch cadence, up to 16 orbit insertions per flight, and 72-96 hour turnaround. The
+  company has manufactured its 80kN reusable upper-stage engine (Pegasus) using a proprietary Full Flow
+  Segregated Cooling Cycle (FFSCC) and operates a large private rocket testing facility in Cuddalore,
+  Tamil Nadu. EtherealX has raised on the order of $26M across multiple rounds, including a Series A in
+  December 2025. The company offers launch services rather than any developer-facing API or platform.'
 url: https://raw.githubusercontent.com/api-evangelist/ethereal-exploration-guild/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Frontier Tech
+- Aerospace
+- Spacetech
+- Launch Vehicles
+- Reusable Rockets
+- Space
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ethereal-exploration-guild-domain-security.yml
 - type: Website
   url: https://etherealx.space
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
